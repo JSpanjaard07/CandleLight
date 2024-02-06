@@ -22,8 +22,8 @@ public class TweeDMovement : MonoBehaviour
     {
     
 
-        moveVelocity = 0;
-        updownVelocity = 0;
+        moveVelocity = 300;
+        updownVelocity = 300;
 
         //Left Right Movement
         if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.S)) 
