@@ -26,19 +26,19 @@ public class TweeDMovement : MonoBehaviour
         updownVelocity = 0;
 
         //Left Right Movement
-        if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.S)) 
+        if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.S)) 
         {
             moveVelocity = -speed;
         }
-        if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.W)) 
+        if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.W)) 
         {
             moveVelocity = speed;
         }
-         if (Input.GetKey (KeyCode.UpArrow) || Input.GetKey (KeyCode.D)) 
+         if (Input.GetKey (KeyCode.RightArrow) || Input.GetKey (KeyCode.D)) 
         {
             updownVelocity = updownspeed;
         }
-         if (Input.GetKey (KeyCode.DownArrow) || Input.GetKey (KeyCode.A)) 
+         if (Input.GetKey (KeyCode.LeftArrow) || Input.GetKey (KeyCode.A)) 
         {
             updownVelocity = -updownspeed;
         }
