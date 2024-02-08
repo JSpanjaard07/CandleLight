@@ -6,7 +6,8 @@ public class hp : MonoBehaviour
 {
 
     public float health;
-    public bool CanHarvest
+    public bool CanHarvest;
+    public float timeLeft;
 
 
     // Start is called before the first frame update
