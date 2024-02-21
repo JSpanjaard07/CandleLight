@@ -24,7 +24,6 @@ public class hp : MonoBehaviour
 
     if (timeLeft < 0)
     {
-        Debug.Log("IM READY TO HARVEST");
         CanHarvest = true;    
     }   
     }
